@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display';
+    color: #e0be98;
+    background-color: rgba(255, 127, 127, 0);
+}
+body{
+    background-color: #5e794e;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    font-size: large;
+    background-color: #5d2928;
+    box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.45);
+    position: fixed;
+    border-radius: 0 0 50px 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    background-color: #5d2928;
+    box-shadow: unset 0px 2px 6px 0px rgba(0, 0, 0, 0.45);
+}
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5vh;
+    margin-bottom: -5vh ;
+}
+.album-container-spotify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2vh 0 5vh 0;
+}
+.album-items{
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45)
+}
+a{
+    color: #e0be98;
+    text-decoration: none;
+}
+h1{
+    display: flex;
+    justify-content: space-evenly; 
+}
+h2{
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 15vh 0 5vh 0;
+}
