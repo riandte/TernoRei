@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,21 +8,26 @@
     color: #e0be98;
     background-color: rgba(255, 127, 127, 0);
 }
-body{
+
+body {
     background-color: #5e794e;
 }
-*::-webkit-scrollbar{
+
+*::-webkit-scrollbar {
     width: 1px;
 }
-*::-webkit-scrollbar-track{
+
+*::-webkit-scrollbar-track {
     background: #5e794e;
 }
-*::-webkit-scrollbar-thumb{
+
+*::-webkit-scrollbar-thumb {
     background-color: #5e794e;
     border-radius: 10px;
     border: 3px solid rgb(0, 0, 0);
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,7 +39,8 @@ header{
     position: fixed;
     border-radius: 0 0 20px 20px;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,41 +49,48 @@ footer{
     background-color: #5d2928;
     box-shadow: unset 0px 2px 6px 0px rgba(0, 0, 0, 0.45);
 }
+
 .album-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 5vh;
-    margin-bottom: -5vh ;
+    margin-bottom: -5vh;
 }
+
 .album-container-spotify {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 2vh 0 5vh 0;
 }
-.album-items{
+
+.album-items {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45)
 }
-a{
+
+a {
     color: #e0be98;
     text-decoration: none;
 }
-h1{
+
+h1 {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
-h2{
+
+h2 {
     display: flex;
     text-align: center;
-    justify-content: center; 
+    justify-content: center;
     padding: 15vh 0 5vh 0;
 }
-.animate:hover{
+
+.animate:hover {
     scale: 1.1;
     transition: 80ms;
 }
-.fa-solid{
+
+.fa-solid {
     margin: 0 3vw 0 3vw;
 }
-
